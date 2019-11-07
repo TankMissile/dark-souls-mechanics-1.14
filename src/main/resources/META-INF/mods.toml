@@ -1,0 +1,14 @@
+modLoader = "javafml"
+loaderVersion = "[28,)"
+
+authors = "Tank Missile"
+
+[[mods]]
+    modId = "dark_souls_mechanics"
+    version = "${file.jarVersion}"
+    displayName = "Dark Souls Mechanics"
+    displayUrl = "https://github.com/TankMissile/dark-souls-mechanics-1.14/wiki"
+    issueTrackerUrl = "https://github.com/TankMissile/dark-souls-mechanics-1.14/issues"
+    description = '''
+    This mod is designed to add various mechanics from Dark Souls into Minecraft, such as bloodstains, parrying, and dodge rolling.
+    '''
