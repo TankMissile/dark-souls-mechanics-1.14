@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "dark_souls_mechanics:block/bonfire" }
+    ]
+  }
+}

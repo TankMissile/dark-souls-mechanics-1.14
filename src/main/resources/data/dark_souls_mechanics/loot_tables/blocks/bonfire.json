@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools":[
+    {
+      "name": "bonfire",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dark_souls_mechanics:bonfire"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}
