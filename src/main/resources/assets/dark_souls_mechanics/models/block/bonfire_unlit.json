@@ -3,8 +3,7 @@
 	"textures": {
 		"sword": "dark_souls_mechanics:block/bonfire/sword",
 		"ash": "dark_souls_mechanics:block/bonfire/ash",
-		"particle": "dark_souls_mechanics:block/bonfire/ash",
-		"fire": "block/fire_0"
+		"particle": "dark_souls_mechanics:block/bonfire/ash"
 	},
 	"elements": [
 		{
@@ -66,78 +65,6 @@
 				"up": {"uv": [0, 0, 1, 5], "rotation": 180, "texture": "#sword"},
 				"down": {"uv": [1, 0, 2, 5], "rotation": 270, "texture": "#sword"}
 			}
-		},
-		{
-			"name": "fire_north",
-			"from": [5.5, 3.3, 7.6],
-			"to": [10.5, 10.3, 7.6],
-			"shade": false,
-			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		},
-		{
-			"name": "fire_north",
-			"from": [5.5, 3.3, 8.6],
-			"to": [10.5, 10.3, 8.6],
-			"shade": false,
-			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		},
-		{
-			"name": "fire_east",
-			"from": [7.5, 3.3, 5.6],
-			"to": [7.5, 10.3, 10.6],
-			"shade": false,
-			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		},
-		{
-			"name": "fire_west",
-			"from": [8.5, 3.3, 5.6],
-			"to": [8.5, 10.3, 10.6],
-			"shade": false,
-			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
-		},
-		{
-			"from": [4.8, 2, 4.7],
-			"to": [11.3, 7, 11.2],
-			"shade": false,
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
-			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#fire"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#fire"}
-			}
 		}
 	],
 	"display": {
@@ -181,12 +108,6 @@
 			"shade": false,
 			"origin": [8, 8, 8],
 			"children": [2, 3]
-		},
-		{
-			"name": "Fire",
-			"shade": false,
-			"origin": [8, 8, 8],
-			"children": [4, 5, 6, 7, 8]
 		}
 	]
 }

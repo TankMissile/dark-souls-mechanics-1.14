@@ -1,7 +1,20 @@
 {
+  "forge_marker": 1,
+  "defaults": {
+    "model": "dark_souls_mechanics:block/bonfire_unlit"
+  },
   "variants": {
-    "": [
-      { "model": "dark_souls_mechanics:block/bonfire" }
-    ]
+    "lit": {
+      "true": {
+        "model": "dark_souls_mechanics:block/bonfire"
+      },
+      "false": { }
+    },
+    "facing": {
+      "north": { },
+      "east": {"y":  90 },
+      "south": {"y":  180 },
+      "west": {"y":  270 }
+    }
   }
 }
